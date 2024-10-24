@@ -2,9 +2,10 @@ local wezterm = require 'wezterm'
 local keyboard = require 'keyboard'
 local launch_menu = require 'launch_menu'
 local mouse = require 'mouse'
+local theme_sw = require 'theme_sw'
 local config = {}
 
-keyboard.apply_to_config(config)
+keyboard.apply_to_config(config, theme_sw)
 config.launch_menu = launch_menu.set(config)
 config.mouse = mouse.set(config)
 
