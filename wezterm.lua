@@ -16,6 +16,9 @@ mouse.set(config)
 
 config.color_scheme = 'Batman'
 config.audible_bell = 'Disabled'
+config.window_background_opacity = 0.85
+config.text_background_opacity = 0.75
+
 -- config.keys = {
 --   { key = 'l', mods = 'ALT', action = wezterm.action.ShowLauncher },
 -- }
@@ -23,7 +26,7 @@ config.audible_bell = 'Disabled'
 -- config.default_prog = { 'C:\\msys64\\msys2.exe' }
 -- config.launch_menu = launch_menu
 
-config.default_domain = 'WSL:NixOS'
+-- config.default_domain = 'WSL:NixOS'
 
 return config
 
